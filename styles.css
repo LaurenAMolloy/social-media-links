@@ -1,0 +1,110 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    background-color: var(--Grey900);
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.btn {
+    width: 85%;
+    background-color: var(--Grey700);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--Green);
+    color: var(--Grey700);
+}
+
+.social-links-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--Grey800);
+    border-radius: 10px;
+    padding: 0 2rem;
+
+
+    /* Override any margin */
+}
+
+img {
+    border-radius: 100px;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 0;
+    color: var(--Green);
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+}
