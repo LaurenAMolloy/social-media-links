@@ -23,6 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    width: 100%;
 }
 
 img {
@@ -44,7 +46,7 @@ p {
 }
 
 .btn {
-    width: 85%;
+    width: 100%;
     background-color: var(--Grey700);
     color: var(--white);
     padding: 1rem;
@@ -67,11 +69,12 @@ p {
     justify-content: center;
     align-items: center;
     height: auto;
+    margin: 5rem 0;
 }
 
 .card {
-    width: 90%;
-    max-width: 400px;
+
+
     /*border: 2px solid red;*/
     display: flex;
     justify-content: center;
@@ -80,6 +83,7 @@ p {
     background-color: var(--Grey800);
     border-radius: 10px;
     padding: 0 2rem;
+    padding-bottom: 1rem;
 
 
     /* Override any margin */
